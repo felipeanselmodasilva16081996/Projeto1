@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.8s;
+}
+header{
+    height: 80px;
+    background: #445533;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header svg{
+    height: 50%;
+}
+header:hover{
+    fill:antiquewhite;
+}
+@media screen and (max-width: 520px){
+    header{
+        height: 3rem;
+        background:rebeccapurple;
+    }
+    header svg{
+        fill: bisque;
+    }
+
+}
